@@ -107,3 +107,6 @@ project/
 ## 🚀 Conclusion
 
 This project demonstrates how structured SQL analysis can transform raw e-commerce data into meaningful business insights that support decision-making and performance evaluation.
+## Author
+Hamza Mahmoud Kamel
+

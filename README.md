@@ -1,104 +1,85 @@
 # 📊 sales SQL Data Analysis Project
-
 ## 📌 Overview
 
-This project focuses on analyzing an e-commerce transactional dataset using SQL in MYSQL software.  
-The objective is to extract meaningful business insights from raw data through structured querying, aggregation, and analytical thinking.
+This project presents a comprehensive sales data analysis of an e-commerce transactional dataset using MySQL. The goal of the project is to transform raw transactional data into meaningful business insights through structured SQL analysis and data-driven reporting.
 
-The analysis covers key business areas such as sales performance, customer behavior, product trends, coupon usage, and referral source effectiveness.
-
----
-
-## 🎯 Project Goals
-
-- Transform raw transactional data into actionable insights
-- Understand overall sales performance and revenue trends
-- Analyze customer purchasing behavior
-- Evaluate product and payment method performance
-- Measure the impact of coupons and marketing channels
-- Practice structured SQL-based data analysis workflow
-
----
-
-## 🗂️ Dataset Description
-
-The dataset represents e-commerce order transactions and includes information such as:
-
-- Order details and identifiers
-- Product and quantity information
-- Pricing and total transaction value
-- Customer identifiers
-- Payment methods
-- Order status (delivered, returned, canceled, etc.)
+The analysis focuses on multiple business areas including:
+- Sales and revenue performance
+- Customer purchasing behavior
+- Product performance
 - Coupon usage
-- Referral sources
-- Shipping and tracking information
+- Referral source effectiveness
+- Payment method preferences
+- Operational order outcomes
+
+---
+
+## 🎯 Objectives
+
+- Perform structured SQL-based data analysis
+- Apply data cleaning and preprocessing techniques
+- Extract actionable business insights from transactional data
+- Analyze customer and product performance
+- Evaluate operational and marketing metrics
+- Practice real-world analytical workflows using SQL
 
 ---
 
 ## 🧹 Data Preparation
 
-Before analysis, the dataset was cleaned to ensure consistency and accuracy.  
-Missing values in categorical fields (such as coupon usage) were handled by assigning meaningful default categories to support analysis.
+The dataset was cleaned and validated before analysis:
+- Missing values were identified and handled
+- Null coupon values were replaced with `"No Coupon"`
+- Duplicate rows were checked
+- Invalid pricing values were verified
 
 ---
 
-## 📊 Analysis Performed
+## 📊 Analysis Areas
 
-The project includes multiple layers of SQL-based analysis:
+### Sales Performance Analysis
+Evaluation of revenue trends, order distribution, and yearly sales performance.
 
-### • Sales Performance Analysis
-Evaluation of total revenue, order distribution, and sales trends over time.
+### Product Performance Analysis
+Identification of top-performing products based on revenue and quantity sold.
 
-### • Customer Behavior Analysis
-Understanding purchasing patterns, frequency, and spending behavior.
+### Customer Behavior Analysis
+Analysis of purchasing patterns, high-value customers, and customer spending behavior.
 
-### • Product Performance Analysis
-Identification of top-performing and low-performing products based on revenue and quantity sold.
+### Coupon Analysis
+Assessment of coupon adoption and the impact of promotions on revenue.
 
-### • Payment Method Analysis
-Comparison of customer preferences across different payment methods.
+### Referral Source Analysis
+Evaluation of customer acquisition channels and their contribution to revenue.
 
-### • Coupon Usage Analysis
-Assessment of coupon adoption and its impact on sales.
+### Payment Method Analysis
+Investigation of payment preferences and average revenue by payment type.
 
-### • Referral Source Analysis
-Evaluation of marketing channels and their contribution to revenue and orders.
-
-### • Order Status Analysis
-Breakdown of order lifecycle including delivered, returned, and canceled orders.
-
----
-
-## 📈 Key Insights
-
-- Delivered orders represent the majority of successful transactions
-- A small number of products generate a large share of revenue
-- Social media channels contribute significantly to customer acquisition
-- Coupon usage varies across customers but impacts purchasing behavior
-- Payment preferences show clear patterns in customer behavior
+### Operational Analysis
+Analysis of delivery, return, and cancellation rates to evaluate operational performance.
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-- SQL-based data analysis using MySQL
+- SQL querying using MySQL
 - Data cleaning and preprocessing
-- Business-oriented thinking and KPI analysis
-- Aggregation and grouping logic
-- Analytical reporting and insight generation
-- Structuring datasets for reporting and interpretation
+- Aggregation and grouping
+- Business KPI analysis
+- Trend analysis
+- Analytical thinking and reporting
+- Business insight extraction
 
 ---
 
 ## 📁 Repository Structure
 
-```
+```text
 project/
 │
 ├── data/            # Raw dataset files
-├── sql/             # SQL queries used for analysis
-├── report/          # Final written analysis report
+├── sql/             # SQL queries and scripts
+├── report/          # Final analysis report
 └── README.md
 ```
 
@@ -106,7 +87,7 @@ project/
 
 ## 🚀 Conclusion
 
-This project demonstrates how structured SQL analysis can transform raw e-commerce data into meaningful business insights that support decision-making and performance evaluation.
+This project demonstrates how SQL can be used to transform raw e-commerce transactional data into actionable business insights that support decision-making and business performance evaluation.
 ## Author
 Hamza Mahmoud Kamel
 
